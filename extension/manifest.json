@@ -25,5 +25,11 @@
       "matches": ["<all_urls>"],
       "js": ["contentScript.js"]
     }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.html", "vocabulary.html"],
+      "matches": ["<all_urls>"]
+    }
   ]
 }
